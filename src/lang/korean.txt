@@ -2221,7 +2221,7 @@ STR_FACE_AFRICAN                                                :{BLACK}흑인
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}흑인 얼굴 선택
 STR_FACE_YES                                                    :예
 STR_FACE_NO                                                     :아니요
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}콧수염이나 귀걸이 착용
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}콧수염이나 귀걸이 착용
 STR_FACE_HAIR                                                   :머리:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}머리 변경
 STR_FACE_EYEBROWS                                               :눈썹:
@@ -2234,8 +2234,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}안경 �
 STR_FACE_NOSE                                                   :코:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}코 변경
 STR_FACE_LIPS                                                   :입술:
-STR_FACE_MOUSTACHE                                              :콧수염:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}입술/콧수염 변경
+STR_FACE_FACIAL_HAIR                                              :콧수염:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}입술/콧수염 변경
 STR_FACE_CHIN                                                   :턱:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}턱 변경
 STR_FACE_JACKET                                                 :자켓:

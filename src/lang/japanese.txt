@@ -2212,7 +2212,7 @@ STR_FACE_AFRICAN                                                :{BLACK}アフ�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}アフリカ系の顔を選択します
 STR_FACE_YES                                                    :あり
 STR_FACE_NO                                                     :なし
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}口ひげかイヤリングを付けます
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}口ひげかイヤリングを付けます
 STR_FACE_HAIR                                                   :髪型:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}髪型を変更します
 STR_FACE_EYEBROWS                                               :まゆ:
@@ -2225,8 +2225,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}眼鏡�
 STR_FACE_NOSE                                                   :鼻:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}鼻を変更します
 STR_FACE_LIPS                                                   :唇:
-STR_FACE_MOUSTACHE                                              :口ひげ:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}唇/口ひげを変更します
+STR_FACE_FACIAL_HAIR                                              :口ひげ:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}唇/口ひげを変更します
 STR_FACE_CHIN                                                   :顎:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}顎を変更します
 STR_FACE_JACKET                                                 :ジャケット:

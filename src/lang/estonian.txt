@@ -2243,7 +2243,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Aafrikla
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Vali aafrika näod
 STR_FACE_YES                                                    :Jah
 STR_FACE_NO                                                     :Ei
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Vuntsid või kõrvarõngad on lubatud
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Vuntsid või kõrvarõngad on lubatud
 STR_FACE_HAIR                                                   :Soeng:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Vaheta juukseid
 STR_FACE_EYEBROWS                                               :Kulmud:
@@ -2256,8 +2256,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Vaheta p
 STR_FACE_NOSE                                                   :Nina:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Vaheta nina
 STR_FACE_LIPS                                                   :Huuled:
-STR_FACE_MOUSTACHE                                              :Vuntsid:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Vaheta huuli või vuntse
+STR_FACE_FACIAL_HAIR                                              :Vuntsid:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Vaheta huuli või vuntse
 STR_FACE_CHIN                                                   :Lõug:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Vaheta lõuga
 STR_FACE_JACKET                                                 :Pintsak:

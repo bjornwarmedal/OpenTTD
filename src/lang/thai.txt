@@ -2039,7 +2039,7 @@ STR_FACE_AFRICAN                                                :{BLACK}แอ�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}เลือกใบหน้าแอฟริกัน
 STR_FACE_YES                                                    :ใช่
 STR_FACE_NO                                                     :ไม่
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}เปิดใช้งานหนวด
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}เปิดใช้งานหนวด
 STR_FACE_HAIR                                                   :ผม:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}เปลี่ยนผม
 STR_FACE_EYEBROWS                                               :คิ้ว:
@@ -2052,8 +2052,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}เป�
 STR_FACE_NOSE                                                   :จมูก:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}เปลี่ยนจมูก
 STR_FACE_LIPS                                                   :ปาก:
-STR_FACE_MOUSTACHE                                              :หนวด:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}เปลี่ยนปากหรือหนวด
+STR_FACE_FACIAL_HAIR                                              :หนวด:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}เปลี่ยนปากหรือหนวด
 STR_FACE_CHIN                                                   :คาง:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}เปลี่ยนคาง
 STR_FACE_JACKET                                                 :เสื้อ:

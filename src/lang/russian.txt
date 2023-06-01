@@ -2371,7 +2371,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Афри
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Выбрать африканский тип лица
 STR_FACE_YES                                                    :Да
 STR_FACE_NO                                                     :Нет
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Включить усы или серьги
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Включить усы или серьги
 STR_FACE_HAIR                                                   :Волосы:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Изменить волосы
 STR_FACE_EYEBROWS                                               :Брови:
@@ -2384,8 +2384,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Изме
 STR_FACE_NOSE                                                   :Нос:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Изменить нос
 STR_FACE_LIPS                                                   :Губы:
-STR_FACE_MOUSTACHE                                              :Усы:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Изменить губы или усы
+STR_FACE_FACIAL_HAIR                                              :Усы:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Изменить губы или усы
 STR_FACE_CHIN                                                   :Подбородок:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Изменить подбородок
 STR_FACE_JACKET                                                 :Пиджак:

@@ -2214,7 +2214,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Africain
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Choisir les visages africains
 STR_FACE_YES                                                    :Oui
 STR_FACE_NO                                                     :Non
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Activer la moustache ou la boucle d'oreille
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Activer la facial hair ou la boucle d'oreille
 STR_FACE_HAIR                                                   :Cheveux{NBSP}:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Modifier les cheveux
 STR_FACE_EYEBROWS                                               :Yeux{NBSP}:
@@ -2227,8 +2227,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Modifier
 STR_FACE_NOSE                                                   :Nez{NBSP}:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Modifier le nez
 STR_FACE_LIPS                                                   :Lèvres{NBSP}:
-STR_FACE_MOUSTACHE                                              :Moustache{NBSP}:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Modifier les lèvres ou la moustache
+STR_FACE_FACIAL_HAIR                                              :Facial hair{NBSP}:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Modifier les lèvres ou la facial hair
 STR_FACE_CHIN                                                   :Menton{NBSP}:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Modifier le menton
 STR_FACE_JACKET                                                 :Veste{NBSP}:

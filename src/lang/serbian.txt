@@ -2380,7 +2380,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrički
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Afrički izgled lica
 STR_FACE_YES                                                    :Da
 STR_FACE_NO                                                     :Ne
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Dodavanje brkova ili minđuša
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Dodavanje brkova ili minđuša
 STR_FACE_HAIR                                                   :Kosa:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Promena kose
 STR_FACE_EYEBROWS                                               :Obrve:
@@ -2393,8 +2393,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Promena 
 STR_FACE_NOSE                                                   :Nos:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Promena nosa
 STR_FACE_LIPS                                                   :Usna:
-STR_FACE_MOUSTACHE                                              :Brkovi:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Promena usana ili brkova
+STR_FACE_FACIAL_HAIR                                              :Brkovi:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Promena usana ili brkova
 STR_FACE_CHIN                                                   :Brada:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Promena brade
 STR_FACE_JACKET                                                 :Sako:

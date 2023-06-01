@@ -2221,7 +2221,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikal�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Siyah yüz seç
 STR_FACE_YES                                                    :Evet
 STR_FACE_NO                                                     :Hayır
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Bıyık veya küpeyi etkinleştir
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Bıyık veya küpeyi etkinleştir
 STR_FACE_HAIR                                                   :Saç:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Saçı değiştir
 STR_FACE_EYEBROWS                                               :Kaşlar:
@@ -2234,8 +2234,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Gözlü�
 STR_FACE_NOSE                                                   :Burun:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Burnu değiştir
 STR_FACE_LIPS                                                   :Dudak:
-STR_FACE_MOUSTACHE                                              :Bıyık:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Dudakları veya bıyığı değiştir
+STR_FACE_FACIAL_HAIR                                              :Bıyık:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Dudakları veya bıyığı değiştir
 STR_FACE_CHIN                                                   :Çene:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Çeneyi değiştir
 STR_FACE_JACKET                                                 :Ceket:

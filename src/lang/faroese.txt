@@ -1849,7 +1849,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikans
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Vel Afrikonsk andlit
 STR_FACE_YES                                                    :Ja
 STR_FACE_NO                                                     :Nei
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Tendra yvirskegg ella oyraring
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Tendra yvirskegg ella oyraring
 STR_FACE_HAIR                                                   :Hár:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Broyt hár
 STR_FACE_EYEBROWS                                               :Eygnabrýr:
@@ -1862,8 +1862,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Broyt br
 STR_FACE_NOSE                                                   :Nøs:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Broyt nøs
 STR_FACE_LIPS                                                   :Varrar:
-STR_FACE_MOUSTACHE                                              :Yvirskegg:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Broyt varrar ella yvirskegg
+STR_FACE_FACIAL_HAIR                                              :Yvirskegg:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Broyt varrar ella yvirskegg
 STR_FACE_CHIN                                                   :Høka:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Broyt høku
 STR_FACE_JACKET                                                 :Jakki:

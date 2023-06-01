@@ -2221,7 +2221,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Africana
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Selecciona cares africanes
 STR_FACE_YES                                                    :Sí
 STR_FACE_NO                                                     :No
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Activa el bigoti o les arracades
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Activa el bigoti o les arracades
 STR_FACE_HAIR                                                   :Cabell:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Canvia el cabell
 STR_FACE_EYEBROWS                                               :Celles:
@@ -2234,8 +2234,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Canvia l
 STR_FACE_NOSE                                                   :Nas:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Canvia el nas
 STR_FACE_LIPS                                                   :Llavis:
-STR_FACE_MOUSTACHE                                              :Bigoti:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Canvia els llavis o el bigoti
+STR_FACE_FACIAL_HAIR                                              :Bigoti:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Canvia els llavis o el bigoti
 STR_FACE_CHIN                                                   :Barbeta:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Canvia la barbeta
 STR_FACE_JACKET                                                 :Jaqueta:

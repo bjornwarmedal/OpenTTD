@@ -2185,7 +2185,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrika
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Pilih wajah afrika
 STR_FACE_YES                                                    :Ya
 STR_FACE_NO                                                     :Tanpa
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Punya kumis atau anting-anting
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Punya kumis atau anting-anting
 STR_FACE_HAIR                                                   :Rambut:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Ganti model rambut
 STR_FACE_EYEBROWS                                               :Alis:
@@ -2198,8 +2198,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Ganti Ka
 STR_FACE_NOSE                                                   :Hidung:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Ubah Hidung
 STR_FACE_LIPS                                                   :Bibir:
-STR_FACE_MOUSTACHE                                              :Kumis:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Ubah Bibir atau Kumis
+STR_FACE_FACIAL_HAIR                                              :Kumis:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Ubah Bibir atau Kumis
 STR_FACE_CHIN                                                   :Dagu:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Ubah Dagu
 STR_FACE_JACKET                                                 :Jaket:

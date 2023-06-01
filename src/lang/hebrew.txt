@@ -2076,7 +2076,7 @@ STR_FACE_AFRICAN                                                :{BLACK}אפרי
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}בחר תווי פנים אפריקניים
 STR_FACE_YES                                                    :כן
 STR_FACE_NO                                                     :לא
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}אפשר זקן/עגילים
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}אפשר זקן/עגילים
 STR_FACE_HAIR                                                   ::שיער
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}שנה שיער
 STR_FACE_EYEBROWS                                               ::גבות
@@ -2089,8 +2089,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK} שנה 
 STR_FACE_NOSE                                                   :: אף
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}שנה אף
 STR_FACE_LIPS                                                   ::שפתיים
-STR_FACE_MOUSTACHE                                              ::שפם
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}שנה שפתיים או שפם
+STR_FACE_FACIAL_HAIR                                              ::שפם
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}שנה שפתיים או שפם
 STR_FACE_CHIN                                                   ::סנטר
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}שנה סנטר
 STR_FACE_JACKET                                                 ::חליפה

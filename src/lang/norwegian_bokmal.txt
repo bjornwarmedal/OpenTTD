@@ -2158,7 +2158,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikans
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Velg afrikanske ansikter
 STR_FACE_YES                                                    :Ja
 STR_FACE_NO                                                     :Nei
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Aktiver bart eller ørering
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Aktiver bart eller ørering
 STR_FACE_HAIR                                                   :Hår:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Endre hår
 STR_FACE_EYEBROWS                                               :Øyenbryn:
@@ -2171,8 +2171,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Endre br
 STR_FACE_NOSE                                                   :Nese:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Endre nese
 STR_FACE_LIPS                                                   :Lepper:
-STR_FACE_MOUSTACHE                                              :Bart:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Endre lepper eller bart
+STR_FACE_FACIAL_HAIR                                              :Bart:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Endre lepper eller bart
 STR_FACE_CHIN                                                   :Hake:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Endre hake
 STR_FACE_JACKET                                                 :Jakke:

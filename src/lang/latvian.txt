@@ -2191,7 +2191,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikān
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Izvēlēties afrikāņu sejas
 STR_FACE_YES                                                    :Ir
 STR_FACE_NO                                                     :Nav
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Iespējot ūsas vai auskarus
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Iespējot ūsas vai auskarus
 STR_FACE_HAIR                                                   :Mati:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Mainīt matus
 STR_FACE_EYEBROWS                                               :Uzacis:
@@ -2204,8 +2204,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Mainīt 
 STR_FACE_NOSE                                                   :Deguns:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Mainīt degunu
 STR_FACE_LIPS                                                   :Lūpas:
-STR_FACE_MOUSTACHE                                              :Ūsas:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Mainīt lūpas vai ūsas
+STR_FACE_FACIAL_HAIR                                              :Ūsas:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Mainīt lūpas vai ūsas
 STR_FACE_CHIN                                                   :Zods:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Mainīt zodu
 STR_FACE_JACKET                                                 :Jaka:

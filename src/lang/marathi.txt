@@ -1081,7 +1081,7 @@ STR_FACE_AFRICAN                                                :{BLACK}अफ�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}आफ्रिकन चेहेरा निवडा
 STR_FACE_YES                                                    :हो
 STR_FACE_NO                                                     :नाही
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}मिशी अथवा कर्णफुले असू द्या
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}मिशी अथवा कर्णफुले असू द्या
 STR_FACE_HAIR                                                   :केस:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}केस बदला
 STR_FACE_EYEBROWS                                               :भुवया:
@@ -1094,8 +1094,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}चष�
 STR_FACE_NOSE                                                   :नाक:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}नाक बदला
 STR_FACE_LIPS                                                   :ओठ:
-STR_FACE_MOUSTACHE                                              :मिश्या:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}ओठ किंवा मिश्या बदला
+STR_FACE_FACIAL_HAIR                                              :मिश्या:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}ओठ किंवा मिश्या बदला
 STR_FACE_CHIN                                                   :हनुवटी:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}हनुवटी बदला
 

@@ -1944,7 +1944,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikans
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Velg afrikanske andlet
 STR_FACE_YES                                                    :Ja
 STR_FACE_NO                                                     :Nei
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Slå på bart eller øyrering
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Slå på bart eller øyrering
 STR_FACE_HAIR                                                   :Hår:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Byt hår
 STR_FACE_EYEBROWS                                               :Augebryn:
@@ -1957,8 +1957,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Byt bril
 STR_FACE_NOSE                                                   :Nase:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Byt nase
 STR_FACE_LIPS                                                   :Lepper:
-STR_FACE_MOUSTACHE                                              :Bart:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Byt lepper eller bart
+STR_FACE_FACIAL_HAIR                                              :Bart:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Byt lepper eller bart
 STR_FACE_CHIN                                                   :Hake:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Byt hake
 STR_FACE_JACKET                                                 :Jakke:

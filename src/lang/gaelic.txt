@@ -2225,7 +2225,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afragana
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Tagh aodann Afraganach
 STR_FACE_YES                                                    :Air/Oirre
 STR_FACE_NO                                                     :—
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Cuir stais no fàinne-chluaise an comas
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Cuir stais no fàinne-chluaise an comas
 STR_FACE_HAIR                                                   :Falt:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Atharraich am falt
 STR_FACE_EYEBROWS                                               :Malaidhean:
@@ -2238,8 +2238,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Atharrai
 STR_FACE_NOSE                                                   :Sròn:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Atharraich an t-sròn
 STR_FACE_LIPS                                                   :Bilean:
-STR_FACE_MOUSTACHE                                              :Stais:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Atharraich na bilean no an stais
+STR_FACE_FACIAL_HAIR                                              :Stais:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Atharraich na bilean no an stais
 STR_FACE_CHIN                                                   :Smigead:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Atharraich an smigead
 STR_FACE_JACKET                                                 :Seacaid:

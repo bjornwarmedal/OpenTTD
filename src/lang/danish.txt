@@ -2220,7 +2220,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikans
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Vælg afrikanske ansigter
 STR_FACE_YES                                                    :Ja
 STR_FACE_NO                                                     :Nej
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Slå overskæg eller ørering til
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Slå overskæg eller ørering til
 STR_FACE_HAIR                                                   :Hår:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Ændre hår
 STR_FACE_EYEBROWS                                               :Øjenbryn:
@@ -2233,8 +2233,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Ændre b
 STR_FACE_NOSE                                                   :Næse:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Ændre næse
 STR_FACE_LIPS                                                   :Læber:
-STR_FACE_MOUSTACHE                                              :Overskæg:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Ændre læber eller overskæg
+STR_FACE_FACIAL_HAIR                                              :Overskæg:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Ændre læber eller overskæg
 STR_FACE_CHIN                                                   :Hage:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Ændre hage
 STR_FACE_JACKET                                                 :Jakke:

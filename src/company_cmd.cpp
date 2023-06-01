@@ -161,16 +161,16 @@ static bool IsValidCompanyManagerFace(CompanyManagerFace cmf)
 	if (!AreCompanyManagerFaceBitsValid(cmf, CMFV_GEN_ETHN, GE_WM)) return false;
 
 	GenderEthnicity ge   = (GenderEthnicity)GetCompanyManagerFaceBits(cmf, CMFV_GEN_ETHN, GE_WM);
-	bool has_moustache   = !HasBit(ge, GENDER_FEMALE) && GetCompanyManagerFaceBits(cmf, CMFV_HAS_MOUSTACHE,   ge) != 0;
+	bool has_facial hair   = !HasBit(ge, GENDER_FEMALE) && GetCompanyManagerFaceBits(cmf, CMFV_HAS_FACIAL_HAIR,   ge) != 0;
 	bool has_tie_earring = !HasBit(ge, GENDER_FEMALE) || GetCompanyManagerFaceBits(cmf, CMFV_HAS_TIE_EARRING, ge) != 0;
 	bool has_glasses     = GetCompanyManagerFaceBits(cmf, CMFV_HAS_GLASSES, ge) != 0;
 
 	if (!AreCompanyManagerFaceBitsValid(cmf, CMFV_EYE_COLOUR, ge)) return false;
 	for (CompanyManagerFaceVariable cmfv = CMFV_CHEEKS; cmfv < CMFV_END; cmfv++) {
 		switch (cmfv) {
-			case CMFV_MOUSTACHE:   if (!has_moustache)   continue; break;
+			case CMFV_FACIAL_HAIR:   if (!has_facial hair)   continue; break;
 			case CMFV_LIPS:
-			case CMFV_NOSE:        if (has_moustache)    continue; break;
+			case CMFV_NOSE:        if (has_facial hair)    continue; break;
 			case CMFV_TIE_EARRING: if (!has_tie_earring) continue; break;
 			case CMFV_GLASSES:     if (!has_glasses)     continue; break;
 			default: break;

@@ -1857,7 +1857,7 @@ STR_FACE_AFRICAN                                                :{BLACK}أفري
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}إختيار وجوه أفريقيه
 STR_FACE_YES                                                    :نعم
 STR_FACE_NO                                                     :لا
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}تفعيل الشوارب أو أقراط الأذان
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}تفعيل الشوارب أو أقراط الأذان
 STR_FACE_HAIR                                                   :الشعر:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}غير الشعر
 STR_FACE_EYEBROWS                                               :الحواجب:
@@ -1870,8 +1870,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}غير �
 STR_FACE_NOSE                                                   :الأنف:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}غير الأنف
 STR_FACE_LIPS                                                   :الشفاه:
-STR_FACE_MOUSTACHE                                              :الشوارب:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}غير الشفاه أو الشوارب
+STR_FACE_FACIAL_HAIR                                              :الشوارب:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}غير الشفاه أو الشوارب
 STR_FACE_CHIN                                                   :الذقن:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}غير الذقن
 STR_FACE_JACKET                                                 :سترة:

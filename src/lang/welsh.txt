@@ -2024,7 +2024,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Affrican
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Dewis gwyneb Affricanaidd
 STR_FACE_YES                                                    :Ie
 STR_FACE_NO                                                     :Na
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Galluogi mwstásh neu glustdlws
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Galluogi mwstásh neu glustdlws
 STR_FACE_HAIR                                                   :Gwallt:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Newid gwallt
 STR_FACE_EYEBROWS                                               :Aeliau:
@@ -2037,8 +2037,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Newid sb
 STR_FACE_NOSE                                                   :Trwyn:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Newid trwyn
 STR_FACE_LIPS                                                   :Gwefusau:
-STR_FACE_MOUSTACHE                                              :Mwstásh:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Newid gwefusau neu fwstásh
+STR_FACE_FACIAL_HAIR                                              :Mwstásh:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Newid gwefusau neu fwstásh
 STR_FACE_CHIN                                                   :Gen:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Newid gen
 STR_FACE_JACKET                                                 :Siaced:

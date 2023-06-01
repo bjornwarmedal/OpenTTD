@@ -1939,7 +1939,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikarr
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Afrikarren aurpegiak aukeratu
 STR_FACE_YES                                                    :Bai
 STR_FACE_NO                                                     :Ez
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Gaitu biboteak eta belarritakoak
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Gaitu biboteak eta belarritakoak
 STR_FACE_HAIR                                                   :Ilea:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Ilea aldatu
 STR_FACE_EYEBROWS                                               :Bekainak:
@@ -1952,8 +1952,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Betaurre
 STR_FACE_NOSE                                                   :Sudurra:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Sudurra aldatu
 STR_FACE_LIPS                                                   :Ezpainak:
-STR_FACE_MOUSTACHE                                              :Bibotea:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Aldatu ezpainak eta bibotea
+STR_FACE_FACIAL_HAIR                                              :Bibotea:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Aldatu ezpainak eta bibotea
 STR_FACE_CHIN                                                   :Kokotsa:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Kokotsa aldatu
 STR_FACE_JACKET                                                 :Jaka:

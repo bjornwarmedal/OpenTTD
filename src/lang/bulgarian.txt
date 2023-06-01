@@ -1983,7 +1983,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Aфри�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Избери Африкански лица
 STR_FACE_YES                                                    :Дa
 STR_FACE_NO                                                     :He
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Позволи мустак или обица
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Позволи мустак или обица
 STR_FACE_HAIR                                                   :Kоса:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Cмени kocaтa
 STR_FACE_EYEBROWS                                               :Вежди:
@@ -1996,8 +1996,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Cмен�
 STR_FACE_NOSE                                                   :Hoc:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Cмени носът
 STR_FACE_LIPS                                                   :Устни:
-STR_FACE_MOUSTACHE                                              :Mустак :
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Cмени устните или mустакът
+STR_FACE_FACIAL_HAIR                                              :Mустак :
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Cмени устните или mустакът
 STR_FACE_CHIN                                                   :Брада:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Cмени брадатa
 STR_FACE_JACKET                                                 :Cако:

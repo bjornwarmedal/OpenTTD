@@ -2188,7 +2188,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikani
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Auswahl afrikanischer Gesichter
 STR_FACE_YES                                                    :Ja
 STR_FACE_NO                                                     :Nein
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Schnauzbart oder Ohrring erlauben
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Schnauzbart oder Ohrring erlauben
 STR_FACE_HAIR                                                   :Frisur:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Frisur 채ndern
 STR_FACE_EYEBROWS                                               :Augenbrauen:
@@ -2201,8 +2201,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Brille �
 STR_FACE_NOSE                                                   :Nase:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Nase 채ndern
 STR_FACE_LIPS                                                   :Lippen:
-STR_FACE_MOUSTACHE                                              :Schnauzbart:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Lippen oder Schnauzbart 채ndern
+STR_FACE_FACIAL_HAIR                                              :Schnauzbart:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Lippen oder Schnauzbart 채ndern
 STR_FACE_CHIN                                                   :Kinn:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Kinn 채ndern
 STR_FACE_JACKET                                                 :Jackett:

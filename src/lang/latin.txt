@@ -2227,7 +2227,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Africana
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Eligere facies Africanas
 STR_FACE_YES                                                    :Ita
 STR_FACE_NO                                                     :Non
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Apponere mystacem vel inaurem
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Apponere mystacem vel inaurem
 STR_FACE_HAIR                                                   :Capilli:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Mutare capillos
 STR_FACE_EYEBROWS                                               :Supercilia:
@@ -2240,8 +2240,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Mutare p
 STR_FACE_NOSE                                                   :Nasus:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Mutare nasum
 STR_FACE_LIPS                                                   :Labra:
-STR_FACE_MOUSTACHE                                              :Mystax:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Mutare labra vel mystacem
+STR_FACE_FACIAL_HAIR                                              :Mystax:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Mutare labra vel mystacem
 STR_FACE_CHIN                                                   :Mentum:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Mutare mentum
 STR_FACE_JACKET                                                 :Vestis:

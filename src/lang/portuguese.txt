@@ -2221,7 +2221,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Africano
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Seleccionar Caras Africanas
 STR_FACE_YES                                                    :Sim
 STR_FACE_NO                                                     :Não
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Ativar bigode ou brinco
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Ativar bigode ou brinco
 STR_FACE_HAIR                                                   :Cabelo:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Mudar cabelo
 STR_FACE_EYEBROWS                                               :Sobrancelhas:
@@ -2234,8 +2234,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Mudar ó
 STR_FACE_NOSE                                                   :Nariz:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Mudar nariz
 STR_FACE_LIPS                                                   :Lábios:
-STR_FACE_MOUSTACHE                                              :Bigode:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Mudar lábios ou bigode
+STR_FACE_FACIAL_HAIR                                              :Bigode:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Mudar lábios ou bigode
 STR_FACE_CHIN                                                   :Queixo:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Mudar queixo
 STR_FACE_JACKET                                                 :Casaco:

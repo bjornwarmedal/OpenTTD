@@ -1640,7 +1640,7 @@ STR_FACE_AFRICAN                                                :{BLACK}افری
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}افریقی چہرہ چنئے
 STR_FACE_YES                                                    :ہاں
 STR_FACE_NO                                                     :نہیں
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}مونچھیں یا کان کی بالیاں فعال کریں
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}مونچھیں یا کان کی بالیاں فعال کریں
 STR_FACE_HAIR                                                   :بال:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}بال بدلیں
 STR_FACE_EYEBROWS                                               :بھوئیں:
@@ -1653,8 +1653,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}چشمے
 STR_FACE_NOSE                                                   :ناک:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}ناک بدلیں
 STR_FACE_LIPS                                                   :ہونٹ:
-STR_FACE_MOUSTACHE                                              :مونچھیں:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}ہونٹ یا مونچھیں بدلیں
+STR_FACE_FACIAL_HAIR                                              :مونچھیں:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}ہونٹ یا مونچھیں بدلیں
 STR_FACE_CHIN                                                   :ٹھوڑی:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}ٹھوڑی بدلیں
 STR_FACE_JACKET                                                 :جیکٹ:

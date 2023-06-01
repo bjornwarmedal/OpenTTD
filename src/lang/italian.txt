@@ -2255,7 +2255,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Africana
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Seleziona le facce africane
 STR_FACE_YES                                                    :Sì
 STR_FACE_NO                                                     :No
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Abilita i baffi o l'orecchino
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Abilita i baffi o l'orecchino
 STR_FACE_HAIR                                                   :Capelli:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Cambia i capelli
 STR_FACE_EYEBROWS                                               :Sopracciglia:
@@ -2268,8 +2268,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Cambia g
 STR_FACE_NOSE                                                   :Naso:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Cambia il naso
 STR_FACE_LIPS                                                   :Labbra:
-STR_FACE_MOUSTACHE                                              :Baffi:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Cambia le labbra o i baffi
+STR_FACE_FACIAL_HAIR                                              :Baffi:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Cambia le labbra o i baffi
 STR_FACE_CHIN                                                   :Mento:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Cambia il mento
 STR_FACE_JACKET                                                 :Giacca:

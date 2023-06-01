@@ -2187,7 +2187,7 @@ STR_FACE_AFRICAN                                                :{BLACK}非洲�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}選擇非洲人臉孔
 STR_FACE_YES                                                    :確定
 STR_FACE_NO                                                     :取消
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}增加鬍鬚或耳飾
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}增加鬍鬚或耳飾
 STR_FACE_HAIR                                                   :髮型：
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}改變髮型
 STR_FACE_EYEBROWS                                               :眉毛：
@@ -2200,8 +2200,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}改變�
 STR_FACE_NOSE                                                   :鼻子：
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}改變鼻子
 STR_FACE_LIPS                                                   :嘴唇：
-STR_FACE_MOUSTACHE                                              :鬍鬚：
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}改變嘴唇或鬍鬚
+STR_FACE_FACIAL_HAIR                                              :鬍鬚：
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}改變嘴唇或鬍鬚
 STR_FACE_CHIN                                                   :下巴：
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}改變下巴
 STR_FACE_JACKET                                                 :外套：

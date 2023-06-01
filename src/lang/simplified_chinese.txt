@@ -2187,7 +2187,7 @@ STR_FACE_AFRICAN                                                :{BLACK}非洲�
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}使用非洲人面孔
 STR_FACE_YES                                                    :是
 STR_FACE_NO                                                     :否
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}是否有 胡子或耳环
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}是否有 胡子或耳环
 STR_FACE_HAIR                                                   :发型
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}选择发型
 STR_FACE_EYEBROWS                                               :眉毛
@@ -2200,8 +2200,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}选择�
 STR_FACE_NOSE                                                   :鼻子
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}选择鼻子
 STR_FACE_LIPS                                                   :嘴唇
-STR_FACE_MOUSTACHE                                              :胡子
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}选择嘴唇或是胡子
+STR_FACE_FACIAL_HAIR                                              :胡子
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}选择嘴唇或是胡子
 STR_FACE_CHIN                                                   :下巴
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}选择下巴
 STR_FACE_JACKET                                                 :外衣

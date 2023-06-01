@@ -2187,7 +2187,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikane
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Wielt afrikanesch Gesiichter
 STR_FACE_YES                                                    :Jo
 STR_FACE_NO                                                     :Nee
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Schalt Schnauz oder Ouerréng un
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Schalt Schnauz oder Ouerréng un
 STR_FACE_HAIR                                                   :Hoer:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Hoer änneren
 STR_FACE_EYEBROWS                                               :Aperhoer:
@@ -2200,8 +2200,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Brëll �
 STR_FACE_NOSE                                                   :Nues:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Nues änneren
 STR_FACE_LIPS                                                   :Lëpsen:
-STR_FACE_MOUSTACHE                                              :Schnauz:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Lëpsen oder Schnauz änneren
+STR_FACE_FACIAL_HAIR                                              :Schnauz:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Lëpsen oder Schnauz änneren
 STR_FACE_CHIN                                                   :Kënn:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Kënn änneren
 STR_FACE_JACKET                                                 :Paltong:

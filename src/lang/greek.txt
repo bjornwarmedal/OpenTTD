@@ -2291,7 +2291,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Αφρι
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Επιλογή αφρικάνικων προσώπων
 STR_FACE_YES                                                    :Ναι
 STR_FACE_NO                                                     :Όχι
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Ενεργοποίηση μουστακιού ή σκουλαρικιού
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Ενεργοποίηση μουστακιού ή σκουλαρικιού
 STR_FACE_HAIR                                                   :Μαλλιά:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Αλλάξτε μαλλιά
 STR_FACE_EYEBROWS                                               :Φρύδια:
@@ -2304,8 +2304,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Αλλά
 STR_FACE_NOSE                                                   :Μύτη:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Αλλάξτε μύτη
 STR_FACE_LIPS                                                   :Χείλια:
-STR_FACE_MOUSTACHE                                              :Μουστάκι:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Αλλάξτε χείλια ή μουστάκι
+STR_FACE_FACIAL_HAIR                                              :Μουστάκι:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Αλλάξτε χείλια ή μουστάκι
 STR_FACE_CHIN                                                   :Πηγούνι:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Αλλάξτε πηγούνι
 STR_FACE_JACKET                                                 :Σακάκι:

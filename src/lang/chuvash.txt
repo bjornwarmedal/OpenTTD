@@ -928,7 +928,7 @@ STR_FACE_GLASSES_TOOLTIP                                        :{BLACK}Куҫл
 STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Тӳрлет куҫлӑх
 STR_FACE_NOSE                                                   :Сӑмса:
 STR_FACE_LIPS                                                   :Тута:
-STR_FACE_MOUSTACHE                                              :Мӑйӑх:
+STR_FACE_FACIAL_HAIR                                              :Мӑйӑх:
 STR_FACE_CHIN                                                   :Янах:
 STR_FACE_JACKET                                                 :Пиншак:
 STR_FACE_COLLAR                                                 :Ҫуха:

@@ -2600,7 +2600,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrykań
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Wybierz twarz o karnacji afrykańskiej
 STR_FACE_YES                                                    :Tak
 STR_FACE_NO                                                     :Nie
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Pokaż wąsy lub kolczyk
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Pokaż wąsy lub kolczyk
 STR_FACE_HAIR                                                   :Włosy:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Zmień włosy
 STR_FACE_EYEBROWS                                               :Brwi:
@@ -2613,8 +2613,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Zmień o
 STR_FACE_NOSE                                                   :Nos:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Zmień nos
 STR_FACE_LIPS                                                   :Usta:
-STR_FACE_MOUSTACHE                                              :Wąsy:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Zmień usta lub wąsy
+STR_FACE_FACIAL_HAIR                                              :Wąsy:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Zmień usta lub wąsy
 STR_FACE_CHIN                                                   :Broda:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Zmień brodę
 STR_FACE_JACKET                                                 :Marynarka:

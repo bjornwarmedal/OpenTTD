@@ -2374,7 +2374,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Афры
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Выбар твараў афрыканскага тыпу
 STR_FACE_YES                                                    :Так
 STR_FACE_NO                                                     :Не
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Уключыць вусы ці завушніцы
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Уключыць вусы ці завушніцы
 STR_FACE_HAIR                                                   :Валасы:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Зьмяніць валасы
 STR_FACE_EYEBROWS                                               :Бровы:
@@ -2387,8 +2387,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Зьмя
 STR_FACE_NOSE                                                   :Нос:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Зьмяніць нос
 STR_FACE_LIPS                                                   :Вусны:
-STR_FACE_MOUSTACHE                                              :Вусы:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Зьмяніць вусны ці вусы
+STR_FACE_FACIAL_HAIR                                              :Вусы:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Зьмяніць вусны ці вусы
 STR_FACE_CHIN                                                   :Падбародак:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Зьмяніць падбародак:
 STR_FACE_JACKET                                                 :Пінжак:

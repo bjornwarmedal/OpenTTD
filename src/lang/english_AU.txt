@@ -2220,7 +2220,7 @@ STR_FACE_AFRICAN                                                :{BLACK}African
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Select African faces
 STR_FACE_YES                                                    :Yes
 STR_FACE_NO                                                     :No
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Enable moustache or earring
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Enable facial hair or earring
 STR_FACE_HAIR                                                   :Hair:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Change hair
 STR_FACE_EYEBROWS                                               :Eyebrows:
@@ -2233,8 +2233,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Change g
 STR_FACE_NOSE                                                   :Nose:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Change nose
 STR_FACE_LIPS                                                   :Lips:
-STR_FACE_MOUSTACHE                                              :Moustache:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Change lips or moustache
+STR_FACE_FACIAL_HAIR                                              :Facial hair:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Change lips or facial hair
 STR_FACE_CHIN                                                   :Chin:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Change chin
 STR_FACE_JACKET                                                 :Jacket:

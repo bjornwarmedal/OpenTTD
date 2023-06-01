@@ -2197,7 +2197,7 @@ STR_FACE_AFRICAN                                                :{BLACK}African
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Alege feţe africane
 STR_FACE_YES                                                    :Da
 STR_FACE_NO                                                     :Nu
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Permite mustaţă sau cercei
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Permite mustaţă sau cercei
 STR_FACE_HAIR                                                   :Păr:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Schimbă părul
 STR_FACE_EYEBROWS                                               :Sprâncene:
@@ -2210,8 +2210,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Schimbă
 STR_FACE_NOSE                                                   :Nas:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Schimbă nasul
 STR_FACE_LIPS                                                   :Buze:
-STR_FACE_MOUSTACHE                                              :Mustaţă:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Schimbă buzele sau mustaţa
+STR_FACE_FACIAL_HAIR                                              :Mustaţă:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Schimbă buzele sau mustaţa
 STR_FACE_CHIN                                                   :Bărbie:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Schimbă bărbia
 STR_FACE_JACKET                                                 :Haină:

@@ -2385,7 +2385,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikiet
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Pasirinkti afrikietiškus veidus
 STR_FACE_YES                                                    :Taip
 STR_FACE_NO                                                     :Ne
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Įjungti ūsus arba auskarą
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Įjungti ūsus arba auskarą
 STR_FACE_HAIR                                                   :Plaukai:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Keisti plaukus
 STR_FACE_EYEBROWS                                               :Antakiai:
@@ -2398,8 +2398,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Keisti a
 STR_FACE_NOSE                                                   :Nosis:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Keisti nosį
 STR_FACE_LIPS                                                   :Lūpos:
-STR_FACE_MOUSTACHE                                              :Ūsai:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Pakeisti lūpas arba ūsus
+STR_FACE_FACIAL_HAIR                                              :Ūsai:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Pakeisti lūpas arba ūsus
 STR_FACE_CHIN                                                   :Smakras:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Pakeisti smakrą
 STR_FACE_JACKET                                                 :Švarkas:

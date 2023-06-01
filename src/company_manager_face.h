@@ -33,14 +33,14 @@ enum CompanyManagerFaceVariable {
 	CMFV_GENDER,
 	CMFV_ETHNICITY,
 	CMFV_GEN_ETHN,
-	CMFV_HAS_MOUSTACHE,
+	CMFV_HAS_FACIAL_HAIR,
 	CMFV_HAS_TIE_EARRING,
 	CMFV_HAS_GLASSES,
 	CMFV_EYE_COLOUR,
 	CMFV_CHEEKS,
 	CMFV_CHIN,
 	CMFV_EYEBROWS,
-	CMFV_MOUSTACHE,
+	CMFV_FACIAL_HAIR,
 	CMFV_LIPS,
 	CMFV_NOSE,
 	CMFV_HAIR,
@@ -66,16 +66,16 @@ static const CompanyManagerFaceBitsInfo _cmf_info[] = {
 	 * CMFV_GENDER          */ {  0, 1, {  2,  2,  2,  2 }, {     0,     0,     0,     0 } }, ///< 0 = male, 1 = female
 	/* CMFV_ETHNICITY       */ {  1, 2, {  2,  2,  2,  2 }, {     0,     0,     0,     0 } }, ///< 0 = (Western-)Caucasian, 1 = African(-American)/Black
 	/* CMFV_GEN_ETHN        */ {  0, 3, {  4,  4,  4,  4 }, {     0,     0,     0,     0 } }, ///< Shortcut to get/set gender _and_ ethnicity
-	/* CMFV_HAS_MOUSTACHE   */ {  3, 1, {  2,  0,  2,  0 }, {     0,     0,     0,     0 } }, ///< Females do not have a moustache
+	/* CMFV_HAS_FACIAL_HAIR   */ {  3, 1, {  2,  0,  2,  0 }, {     0,     0,     0,     0 } }, ///< Females do not have a facial hair
 	/* CMFV_HAS_TIE_EARRING */ {  3, 1, {  0,  2,  0,  2 }, {     0,     0,     0,     0 } }, ///< Draw the earring for females or not. For males the tie is always drawn.
 	/* CMFV_HAS_GLASSES     */ {  4, 1, {  2,  2,  2,  2 }, {     0,     0,     0,     0 } }, ///< Whether to draw glasses or not
 	/* CMFV_EYE_COLOUR      */ {  5, 2, {  3,  3,  1,  1 }, {     0,     0,     0,     0 } }, ///< Palette modification
 	/* CMFV_CHEEKS          */ {  0, 0, {  1,  1,  1,  1 }, { 0x325, 0x326, 0x390, 0x3B0 } }, ///< Cheeks are only indexed by their gender/ethnicity
 	/* CMFV_CHIN            */ {  7, 2, {  4,  1,  2,  2 }, { 0x327, 0x327, 0x391, 0x3B1 } },
 	/* CMFV_EYEBROWS        */ {  9, 4, { 12, 16, 11, 16 }, { 0x32B, 0x337, 0x39A, 0x3B8 } },
-	/* CMFV_MOUSTACHE       */ { 13, 2, {  3,  0,  3,  0 }, { 0x367,     0, 0x397,     0 } }, ///< Depends on CMFV_HAS_MOUSTACHE
-	/* CMFV_LIPS            */ { 13, 4, { 12, 10,  9,  9 }, { 0x35B, 0x351, 0x3A5, 0x3C8 } }, ///< Depends on !CMFV_HAS_MOUSTACHE
-	/* CMFV_NOSE            */ { 17, 3, {  8,  4,  4,  5 }, { 0x349, 0x34C, 0x393, 0x3B3 } }, ///< Depends on !CMFV_HAS_MOUSTACHE
+	/* CMFV_FACIAL_HAIR       */ { 13, 2, {  3,  0,  3,  0 }, { 0x367,     0, 0x397,     0 } }, ///< Depends on CMFV_HAS_FACIAL_HAIR
+	/* CMFV_LIPS            */ { 13, 4, { 12, 10,  9,  9 }, { 0x35B, 0x351, 0x3A5, 0x3C8 } }, ///< Depends on !CMFV_HAS_FACIAL_HAIR
+	/* CMFV_NOSE            */ { 17, 3, {  8,  4,  4,  5 }, { 0x349, 0x34C, 0x393, 0x3B3 } }, ///< Depends on !CMFV_HAS_FACIAL_HAIR
 	/* CMFV_HAIR            */ { 20, 4, {  9,  5,  5,  5 }, { 0x382, 0x38B, 0x3D4, 0x3D9 } },
 	/* CMFV_JACKET          */ { 24, 2, {  3,  3,  3,  3 }, { 0x36B, 0x378, 0x36B, 0x378 } },
 	/* CMFV_COLLAR          */ { 26, 2, {  4,  4,  4,  4 }, { 0x36E, 0x37B, 0x36E, 0x37B } },
@@ -179,13 +179,13 @@ static inline void ScaleAllCompanyManagerFaceBits(CompanyManagerFace &cmf)
 
 	GenderEthnicity ge = (GenderEthnicity)GB(cmf, _cmf_info[CMFV_GEN_ETHN].offset, _cmf_info[CMFV_GEN_ETHN].length); // gender & ethnicity of the face
 
-	/* Is a male face with moustache. Need to reduce CPU load in the loop. */
-	bool is_moust_male = !HasBit(ge, GENDER_FEMALE) && GetCompanyManagerFaceBits(cmf, CMFV_HAS_MOUSTACHE, ge) != 0;
+	/* Is a male face with facial hair. Need to reduce CPU load in the loop. */
+	bool is_moust_male = !HasBit(ge, GENDER_FEMALE) && GetCompanyManagerFaceBits(cmf, CMFV_HAS_FACIAL_HAIR, ge) != 0;
 
 	for (CompanyManagerFaceVariable cmfv = CMFV_EYE_COLOUR; cmfv < CMFV_END; cmfv++) { // scales all other variables
 
-		/* The moustache variable will be scaled only if it is a male face with has a moustache */
-		if (cmfv != CMFV_MOUSTACHE || is_moust_male) {
+		/* The facial hair variable will be scaled only if it is a male face with has a facial hair */
+		if (cmfv != CMFV_FACIAL_HAIR || is_moust_male) {
 			IncreaseCompanyManagerFaceBits(cmf, cmfv, ge, 0);
 		}
 	}

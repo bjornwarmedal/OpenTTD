@@ -1193,7 +1193,7 @@ void DrawCompanyManagerFace(CompanyManagerFace cmf, int colour, const Rect &r)
 	int x = CenterBounds(r.left, r.right, d.width);
 	int y = CenterBounds(r.top, r.bottom, d.height);
 
-	bool has_moustache   = !HasBit(ge, GENDER_FEMALE) && GetCompanyManagerFaceBits(cmf, CMFV_HAS_MOUSTACHE,   ge) != 0;
+	bool has_facial hair   = !HasBit(ge, GENDER_FEMALE) && GetCompanyManagerFaceBits(cmf, CMFV_HAS_FACIAL_HAIR,   ge) != 0;
 	bool has_tie_earring = !HasBit(ge, GENDER_FEMALE) || GetCompanyManagerFaceBits(cmf, CMFV_HAS_TIE_EARRING, ge) != 0;
 	bool has_glasses     = GetCompanyManagerFaceBits(cmf, CMFV_HAS_GLASSES, ge) != 0;
 	PaletteID pal;
@@ -1215,9 +1215,9 @@ void DrawCompanyManagerFace(CompanyManagerFace cmf, int colour, const Rect &r)
 
 	for (CompanyManagerFaceVariable cmfv = CMFV_CHEEKS; cmfv < CMFV_END; cmfv++) {
 		switch (cmfv) {
-			case CMFV_MOUSTACHE:   if (!has_moustache)   continue; break;
+			case CMFV_FACIAL_HAIR:   if (!has_facial hair)   continue; break;
 			case CMFV_LIPS:
-			case CMFV_NOSE:        if (has_moustache)    continue; break;
+			case CMFV_NOSE:        if (has_facial hair)    continue; break;
 			case CMFV_TIE_EARRING: if (!has_tie_earring) continue; break;
 			case CMFV_GLASSES:     if (!has_glasses)     continue; break;
 			default: break;
@@ -1279,9 +1279,9 @@ static const NWidgetPart _nested_select_company_manager_face_widgets[] = {
 						EndContainer(),
 						NWidget(NWID_SPACER), SetMinimalSize(0, 4),
 						NWidget(NWID_HORIZONTAL),
-							NWidget(WWT_TEXT, INVALID_COLOUR, WID_SCMF_HAS_MOUSTACHE_EARRING_TEXT), SetFill(1, 0), SetPadding(WidgetDimensions::unscaled.framerect),
+							NWidget(WWT_TEXT, INVALID_COLOUR, WID_SCMF_HAS_FACIAL_HAIR_EARRING_TEXT), SetFill(1, 0), SetPadding(WidgetDimensions::unscaled.framerect),
 								SetDataTip(STR_FACE_EYECOLOUR, STR_NULL), SetTextStyle(TC_GOLD), SetAlignment(SA_VERT_CENTER | SA_RIGHT),
-							NWidget(WWT_PUSHTXTBTN, COLOUR_GREY, WID_SCMF_HAS_MOUSTACHE_EARRING), SetDataTip(STR_JUST_STRING, STR_FACE_MOUSTACHE_EARRING_TOOLTIP), SetTextStyle(TC_WHITE),
+							NWidget(WWT_PUSHTXTBTN, COLOUR_GREY, WID_SCMF_HAS_FACIAL_HAIR_EARRING), SetDataTip(STR_JUST_STRING, STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP), SetTextStyle(TC_WHITE),
 						EndContainer(),
 						NWidget(NWID_HORIZONTAL),
 							NWidget(WWT_TEXT, INVALID_COLOUR, WID_SCMF_HAS_GLASSES_TEXT), SetFill(1, 0), SetPadding(WidgetDimensions::unscaled.framerect),
@@ -1325,11 +1325,11 @@ static const NWidgetPart _nested_select_company_manager_face_widgets[] = {
 							NWidget(WWT_PUSHARROWBTN, COLOUR_GREY, WID_SCMF_NOSE_R), SetDataTip(AWV_INCREASE, STR_FACE_NOSE_TOOLTIP),
 						EndContainer(),
 						NWidget(NWID_HORIZONTAL),
-							NWidget(WWT_TEXT, INVALID_COLOUR, WID_SCMF_LIPS_MOUSTACHE_TEXT), SetFill(1, 0), SetPadding(WidgetDimensions::unscaled.framerect),
-								SetDataTip(STR_FACE_MOUSTACHE, STR_NULL), SetTextStyle(TC_GOLD), SetAlignment(SA_VERT_CENTER | SA_RIGHT),
-							NWidget(WWT_PUSHARROWBTN, COLOUR_GREY, WID_SCMF_LIPS_MOUSTACHE_L), SetDataTip(AWV_DECREASE, STR_FACE_LIPS_MOUSTACHE_TOOLTIP),
-							NWidget(WWT_PUSHTXTBTN, COLOUR_GREY, WID_SCMF_LIPS_MOUSTACHE), SetDataTip(STR_JUST_STRING, STR_FACE_LIPS_MOUSTACHE_TOOLTIP), SetTextStyle(TC_WHITE),
-							NWidget(WWT_PUSHARROWBTN, COLOUR_GREY, WID_SCMF_LIPS_MOUSTACHE_R), SetDataTip(AWV_INCREASE, STR_FACE_LIPS_MOUSTACHE_TOOLTIP),
+							NWidget(WWT_TEXT, INVALID_COLOUR, WID_SCMF_LIPS_FACIAL_HAIR_TEXT), SetFill(1, 0), SetPadding(WidgetDimensions::unscaled.framerect),
+								SetDataTip(STR_FACE_FACIAL_HAIR, STR_NULL), SetTextStyle(TC_GOLD), SetAlignment(SA_VERT_CENTER | SA_RIGHT),
+							NWidget(WWT_PUSHARROWBTN, COLOUR_GREY, WID_SCMF_LIPS_FACIAL_HAIR_L), SetDataTip(AWV_DECREASE, STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP),
+							NWidget(WWT_PUSHTXTBTN, COLOUR_GREY, WID_SCMF_LIPS_FACIAL_HAIR), SetDataTip(STR_JUST_STRING, STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP), SetTextStyle(TC_WHITE),
+							NWidget(WWT_PUSHARROWBTN, COLOUR_GREY, WID_SCMF_LIPS_FACIAL_HAIR_R), SetDataTip(AWV_INCREASE, STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP),
 						EndContainer(),
 						NWidget(NWID_HORIZONTAL),
 							NWidget(WWT_TEXT, INVALID_COLOUR, WID_SCMF_CHIN_TEXT), SetFill(1, 0), SetPadding(WidgetDimensions::unscaled.framerect),
@@ -1380,7 +1380,7 @@ class SelectCompanyManagerFaceWindow : public Window
 
 	GenderEthnicity ge; ///< Gender and ethnicity.
 	bool is_female;     ///< Female face.
-	bool is_moust_male; ///< Male face with a moustache.
+	bool is_moust_male; ///< Male face with a facial hair.
 
 	Dimension yesno_dim;  ///< Dimension of a yes/no button of a part in the advanced face window.
 	Dimension number_dim; ///< Dimension of a number widget of a part in the advanced face window.
@@ -1413,11 +1413,11 @@ class SelectCompanyManagerFaceWindow : public Window
 	{
 		this->ge = (GenderEthnicity)GB(this->face, _cmf_info[CMFV_GEN_ETHN].offset, _cmf_info[CMFV_GEN_ETHN].length); // get the gender and ethnicity
 		this->is_female = HasBit(this->ge, GENDER_FEMALE); // get the gender: 0 == male and 1 == female
-		this->is_moust_male = !is_female && GetCompanyManagerFaceBits(this->face, CMFV_HAS_MOUSTACHE, this->ge) != 0; // is a male face with moustache
+		this->is_moust_male = !is_female && GetCompanyManagerFaceBits(this->face, CMFV_HAS_FACIAL_HAIR, this->ge) != 0; // is a male face with facial hair
 
-		this->GetWidget<NWidgetCore>(WID_SCMF_HAS_MOUSTACHE_EARRING_TEXT)->widget_data = this->is_female ? STR_FACE_EARRING : STR_FACE_MOUSTACHE;
+		this->GetWidget<NWidgetCore>(WID_SCMF_HAS_FACIAL_HAIR_EARRING_TEXT)->widget_data = this->is_female ? STR_FACE_EARRING : STR_FACE_FACIAL_HAIR;
 		this->GetWidget<NWidgetCore>(WID_SCMF_TIE_EARRING_TEXT)->widget_data           = this->is_female ? STR_FACE_EARRING : STR_FACE_TIE;
-		this->GetWidget<NWidgetCore>(WID_SCMF_LIPS_MOUSTACHE_TEXT)->widget_data        = this->is_moust_male ? STR_FACE_MOUSTACHE : STR_FACE_LIPS;
+		this->GetWidget<NWidgetCore>(WID_SCMF_LIPS_FACIAL_HAIR_TEXT)->widget_data        = this->is_moust_male ? STR_FACE_FACIAL_HAIR : STR_FACE_LIPS;
 	}
 
 public:
@@ -1479,9 +1479,9 @@ public:
 	void UpdateWidgetSize(int widget, Dimension *size, const Dimension &padding, Dimension *fill, Dimension *resize) override
 	{
 		switch (widget) {
-			case WID_SCMF_HAS_MOUSTACHE_EARRING_TEXT:
+			case WID_SCMF_HAS_FACIAL_HAIR_EARRING_TEXT:
 				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_EARRING));
-				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_MOUSTACHE));
+				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_FACIAL_HAIR));
 				break;
 
 			case WID_SCMF_TIE_EARRING_TEXT:
@@ -1489,9 +1489,9 @@ public:
 				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_TIE));
 				break;
 
-			case WID_SCMF_LIPS_MOUSTACHE_TEXT:
+			case WID_SCMF_LIPS_FACIAL_HAIR_TEXT:
 				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_LIPS));
-				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_MOUSTACHE));
+				*size = maxdim(*size, GetStringBoundingBox(STR_FACE_FACIAL_HAIR));
 				break;
 
 			case WID_SCMF_FACE: {
@@ -1501,7 +1501,7 @@ public:
 				break;
 			}
 
-			case WID_SCMF_HAS_MOUSTACHE_EARRING:
+			case WID_SCMF_HAS_FACIAL_HAIR_EARRING:
 			case WID_SCMF_HAS_GLASSES:
 				*size = this->yesno_dim;
 				break;
@@ -1509,7 +1509,7 @@ public:
 			case WID_SCMF_EYECOLOUR:
 			case WID_SCMF_CHIN:
 			case WID_SCMF_EYEBROWS:
-			case WID_SCMF_LIPS_MOUSTACHE:
+			case WID_SCMF_LIPS_FACIAL_HAIR:
 			case WID_SCMF_NOSE:
 			case WID_SCMF_HAIR:
 			case WID_SCMF_JACKET:
@@ -1550,11 +1550,11 @@ public:
 		this->SetWidgetsDisabledState(_cmf_info[CMFV_EYEBROWS].valid_values[this->ge] < 2,
 				WID_SCMF_EYEBROWS, WID_SCMF_EYEBROWS_L, WID_SCMF_EYEBROWS_R, WIDGET_LIST_END);
 
-		/* Lips or (if it a male face with a moustache) moustache buttons */
-		this->SetWidgetsDisabledState(_cmf_info[this->is_moust_male ? CMFV_MOUSTACHE : CMFV_LIPS].valid_values[this->ge] < 2,
-				WID_SCMF_LIPS_MOUSTACHE, WID_SCMF_LIPS_MOUSTACHE_L, WID_SCMF_LIPS_MOUSTACHE_R, WIDGET_LIST_END);
+		/* Lips or (if it a male face with a facial hair) facial hair buttons */
+		this->SetWidgetsDisabledState(_cmf_info[this->is_moust_male ? CMFV_FACIAL_HAIR : CMFV_LIPS].valid_values[this->ge] < 2,
+				WID_SCMF_LIPS_FACIAL_HAIR, WID_SCMF_LIPS_FACIAL_HAIR_L, WID_SCMF_LIPS_FACIAL_HAIR_R, WIDGET_LIST_END);
 
-		/* Nose buttons | male faces with moustache haven't any nose options */
+		/* Nose buttons | male faces with facial hair haven't any nose options */
 		this->SetWidgetsDisabledState(_cmf_info[CMFV_NOSE].valid_values[this->ge] < 2 || this->is_moust_male,
 				WID_SCMF_NOSE, WID_SCMF_NOSE_L, WID_SCMF_NOSE_R, WIDGET_LIST_END);
 
@@ -1585,11 +1585,11 @@ public:
 	void SetStringParameters(int widget) const override
 	{
 		switch (widget) {
-			case WID_SCMF_HAS_MOUSTACHE_EARRING:
+			case WID_SCMF_HAS_FACIAL_HAIR_EARRING:
 				if (this->is_female) { // Only for female faces
-					this->SetFaceStringParameters(WID_SCMF_HAS_MOUSTACHE_EARRING, GetCompanyManagerFaceBits(this->face, CMFV_HAS_TIE_EARRING, this->ge), true);
+					this->SetFaceStringParameters(WID_SCMF_HAS_FACIAL_HAIR_EARRING, GetCompanyManagerFaceBits(this->face, CMFV_HAS_TIE_EARRING, this->ge), true);
 				} else { // Only for male faces
-					this->SetFaceStringParameters(WID_SCMF_HAS_MOUSTACHE_EARRING, GetCompanyManagerFaceBits(this->face, CMFV_HAS_MOUSTACHE,   this->ge), true);
+					this->SetFaceStringParameters(WID_SCMF_HAS_FACIAL_HAIR_EARRING, GetCompanyManagerFaceBits(this->face, CMFV_HAS_FACIAL_HAIR,   this->ge), true);
 				}
 				break;
 
@@ -1597,11 +1597,11 @@ public:
 				this->SetFaceStringParameters(WID_SCMF_TIE_EARRING, GetCompanyManagerFaceBits(this->face, CMFV_TIE_EARRING, this->ge), false);
 				break;
 
-			case WID_SCMF_LIPS_MOUSTACHE:
-				if (this->is_moust_male) { // Only for male faces with moustache
-					this->SetFaceStringParameters(WID_SCMF_LIPS_MOUSTACHE, GetCompanyManagerFaceBits(this->face, CMFV_MOUSTACHE, this->ge), false);
-				} else { // Only for female faces or male faces without moustache
-					this->SetFaceStringParameters(WID_SCMF_LIPS_MOUSTACHE, GetCompanyManagerFaceBits(this->face, CMFV_LIPS,      this->ge), false);
+			case WID_SCMF_LIPS_FACIAL_HAIR:
+				if (this->is_moust_male) { // Only for male faces with facial hair
+					this->SetFaceStringParameters(WID_SCMF_LIPS_FACIAL_HAIR, GetCompanyManagerFaceBits(this->face, CMFV_FACIAL_HAIR, this->ge), false);
+				} else { // Only for female faces or male faces without facial hair
+					this->SetFaceStringParameters(WID_SCMF_LIPS_FACIAL_HAIR, GetCompanyManagerFaceBits(this->face, CMFV_LIPS,      this->ge), false);
 				}
 				break;
 
@@ -1722,17 +1722,17 @@ public:
 				break;
 
 			default:
-				/* Here all buttons from WID_SCMF_HAS_MOUSTACHE_EARRING to WID_SCMF_GLASSES_R are handled.
+				/* Here all buttons from WID_SCMF_HAS_FACIAL_HAIR_EARRING to WID_SCMF_GLASSES_R are handled.
 				 * First it checks which CompanyManagerFaceVariable is being changed, and then either
 				 * a: invert the value for boolean variables, or
 				 * b: it checks inside of IncreaseCompanyManagerFaceBits() if a left (_L) butten is pressed and then decrease else increase the variable */
-				if (widget >= WID_SCMF_HAS_MOUSTACHE_EARRING && widget <= WID_SCMF_GLASSES_R) {
+				if (widget >= WID_SCMF_HAS_FACIAL_HAIR_EARRING && widget <= WID_SCMF_GLASSES_R) {
 					CompanyManagerFaceVariable cmfv; // which CompanyManagerFaceVariable shall be edited
 
 					if (widget < WID_SCMF_EYECOLOUR_L) { // Bool buttons
-						switch (widget - WID_SCMF_HAS_MOUSTACHE_EARRING) {
+						switch (widget - WID_SCMF_HAS_FACIAL_HAIR_EARRING) {
 							default: NOT_REACHED();
-							case 0: cmfv = this->is_female ? CMFV_HAS_TIE_EARRING : CMFV_HAS_MOUSTACHE; break; // Has earring/moustache button
+							case 0: cmfv = this->is_female ? CMFV_HAS_TIE_EARRING : CMFV_HAS_FACIAL_HAIR; break; // Has earring/facial hair button
 							case 1: cmfv = CMFV_HAS_GLASSES; break; // Has glasses button
 						}
 						SetCompanyManagerFaceBits(this->face, cmfv, this->ge, !GetCompanyManagerFaceBits(this->face, cmfv, this->ge));
@@ -1743,7 +1743,7 @@ public:
 							case 0: cmfv = CMFV_EYE_COLOUR; break;  // Eye colour buttons
 							case 1: cmfv = CMFV_CHIN; break;        // Chin buttons
 							case 2: cmfv = CMFV_EYEBROWS; break;    // Eyebrows buttons
-							case 3: cmfv = this->is_moust_male ? CMFV_MOUSTACHE : CMFV_LIPS; break; // Moustache or lips buttons
+							case 3: cmfv = this->is_moust_male ? CMFV_FACIAL_HAIR : CMFV_LIPS; break; // Facial hair or lips buttons
 							case 4: cmfv = CMFV_NOSE; break;        // Nose buttons
 							case 5: cmfv = CMFV_HAIR; break;        // Hair buttons
 							case 6: cmfv = CMFV_JACKET; break;      // Jacket buttons

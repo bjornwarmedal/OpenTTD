@@ -2220,7 +2220,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikkal
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Valitse afrikkalaisia kasvoja
 STR_FACE_YES                                                    :Kyllä
 STR_FACE_NO                                                     :Ei
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Käytä viiksiä tai korvakorua
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Käytä viiksiä tai korvakorua
 STR_FACE_HAIR                                                   :Hiukset:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Vaihda hiukset
 STR_FACE_EYEBROWS                                               :Kulmakarvat:
@@ -2233,8 +2233,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Vaihda s
 STR_FACE_NOSE                                                   :Nenä:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Vaihda nenä
 STR_FACE_LIPS                                                   :Huulet:
-STR_FACE_MOUSTACHE                                              :Viikset:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Vaihda huulet tai viikset
+STR_FACE_FACIAL_HAIR                                              :Viikset:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Vaihda huulet tai viikset
 STR_FACE_CHIN                                                   :Leuka:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Vaihda leuka
 STR_FACE_JACKET                                                 :Takki:

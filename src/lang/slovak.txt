@@ -2258,7 +2258,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afričan
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Vybrať africké tváre
 STR_FACE_YES                                                    :áno
 STR_FACE_NO                                                     :nie
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Povoliť fúzy alebo náušnicu
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Povoliť fúzy alebo náušnicu
 STR_FACE_HAIR                                                   :Vlasy:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Zmeniť vlasy
 STR_FACE_EYEBROWS                                               :Obočie:
@@ -2271,8 +2271,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Zmeniť 
 STR_FACE_NOSE                                                   :Nos:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Zmeniť nos
 STR_FACE_LIPS                                                   :Pery:
-STR_FACE_MOUSTACHE                                              :Fúzy:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Zmenit pery alebo fúzy
+STR_FACE_FACIAL_HAIR                                              :Fúzy:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Zmenit pery alebo fúzy
 STR_FACE_CHIN                                                   :Brada:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Zmeniť bradu
 STR_FACE_JACKET                                                 :Sako

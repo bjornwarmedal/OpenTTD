@@ -2275,7 +2275,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afrikai
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Afrikai arc választása
 STR_FACE_YES                                                    :Igen
 STR_FACE_NO                                                     :Nem
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Engedélyez bajuszt vagy a fülbevalót
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Engedélyez bajuszt vagy a fülbevalót
 STR_FACE_HAIR                                                   :Haj:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Haj cseréje
 STR_FACE_EYEBROWS                                               :Szemöldök:
@@ -2288,8 +2288,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Szemüve
 STR_FACE_NOSE                                                   :Orr:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Orr cseréje
 STR_FACE_LIPS                                                   :Ajkak:
-STR_FACE_MOUSTACHE                                              :Bajusz:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Ajkak vagy bajusz cseréje
+STR_FACE_FACIAL_HAIR                                              :Bajusz:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Ajkak vagy bajusz cseréje
 STR_FACE_CHIN                                                   :Áll:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Áll cseréje
 STR_FACE_JACKET                                                 :Kabát

@@ -31,7 +31,7 @@
  * - 4 and 5: chin
  * - 6 to 9: eyebrows
  * - 10 to 13: nose
- * - 13 to 15: lips (also moustache for males)
+ * - 13 to 15: lips (also facial hair for males)
  * - 16 to 19: hair
  * - 20 to 22: eye colour
  * - 20 to 27: tie, ear rings etc.
@@ -62,8 +62,8 @@ CompanyManagerFace ConvertFromOldCompanyManagerFace(uint32 face)
 
 	uint lips = GB(face, 10, 4);
 	if (!HasBit(ge, GENDER_FEMALE) && lips < 4) {
-		SetCompanyManagerFaceBits(cmf, CMFV_HAS_MOUSTACHE, ge, true);
-		SetCompanyManagerFaceBits(cmf, CMFV_MOUSTACHE,     ge, std::max(lips, 1U) - 1);
+		SetCompanyManagerFaceBits(cmf, CMFV_HAS_FACIAL_HAIR, ge, true);
+		SetCompanyManagerFaceBits(cmf, CMFV_FACIAL_HAIR,     ge, std::max(lips, 1U) - 1);
 	} else {
 		if (!HasBit(ge, GENDER_FEMALE)) {
 			lips = lips * 15 / 16;

@@ -2176,7 +2176,7 @@ STR_FACE_AFRICAN                                                :{BLACK}Afriški
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}Izbor afriških obrazov
 STR_FACE_YES                                                    :Da
 STR_FACE_NO                                                     :Ne
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}Vklop brk ali uhanov
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}Vklop brk ali uhanov
 STR_FACE_HAIR                                                   :Lasje:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}Spremeni lase
 STR_FACE_EYEBROWS                                               :Obrvi:
@@ -2189,8 +2189,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}Spremeni
 STR_FACE_NOSE                                                   :Nos:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}Spremeni nos
 STR_FACE_LIPS                                                   :Ustnice:
-STR_FACE_MOUSTACHE                                              :Brke:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}Spremeni ustnice ali brke
+STR_FACE_FACIAL_HAIR                                              :Brke:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}Spremeni ustnice ali brke
 STR_FACE_CHIN                                                   :Brada:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}Spremeni brado
 STR_FACE_JACKET                                                 :Jakna:

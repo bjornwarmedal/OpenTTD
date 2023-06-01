@@ -96,7 +96,7 @@ enum SelectCompanyLiveryWidgets {
 
 /**
  * Widgets of the #SelectCompanyManagerFaceWindow class.
- * Do not change the order of the widgets from WID_SCMF_HAS_MOUSTACHE_EARRING to WID_SCMF_GLASSES_R,
+ * Do not change the order of the widgets from WID_SCMF_HAS_FACIAL_HAIR_EARRING to WID_SCMF_GLASSES_R,
  * this order is needed for the WE_CLICK event of DrawFaceStringLabel().
  */
 enum SelectCompanyManagerFaceWidgets {
@@ -118,9 +118,9 @@ enum SelectCompanyManagerFaceWidgets {
 	WID_SCMF_LOAD,                       ///< Load face.
 	WID_SCMF_FACECODE,                   ///< Get the face code.
 	WID_SCMF_SAVE,                       ///< Save face.
-	WID_SCMF_HAS_MOUSTACHE_EARRING_TEXT, ///< Text about moustache and earring.
+	WID_SCMF_HAS_FACIAL_HAIR_EARRING_TEXT, ///< Text about facial hair and earring.
 	WID_SCMF_TIE_EARRING_TEXT,           ///< Text about tie and earring.
-	WID_SCMF_LIPS_MOUSTACHE_TEXT,        ///< Text about lips and moustache.
+	WID_SCMF_LIPS_FACIAL_HAIR_TEXT,        ///< Text about lips and facial hair.
 	WID_SCMF_HAS_GLASSES_TEXT,           ///< Text about glasses.
 	WID_SCMF_HAIR_TEXT,                  ///< Text about hair.
 	WID_SCMF_EYEBROWS_TEXT,              ///< Text about eyebrows.
@@ -132,7 +132,7 @@ enum SelectCompanyManagerFaceWidgets {
 	WID_SCMF_COLLAR_TEXT,                ///< Text about collar.
 	WID_SCMF_ETHNICITY_EUR,              ///< Text about ethnicity european.
 	WID_SCMF_ETHNICITY_AFR,              ///< Text about ethnicity african.
-	WID_SCMF_HAS_MOUSTACHE_EARRING,      ///< Has moustache or earring.
+	WID_SCMF_HAS_FACIAL_HAIR_EARRING,      ///< Has facial hair or earring.
 	WID_SCMF_HAS_GLASSES,                ///< Has glasses.
 	WID_SCMF_EYECOLOUR_L,                ///< Eyecolour left.
 	WID_SCMF_EYECOLOUR,                  ///< Eyecolour.
@@ -143,9 +143,9 @@ enum SelectCompanyManagerFaceWidgets {
 	WID_SCMF_EYEBROWS_L,                 ///< Eyebrows left.
 	WID_SCMF_EYEBROWS,                   ///< Eyebrows.
 	WID_SCMF_EYEBROWS_R,                 ///< Eyebrows right.
-	WID_SCMF_LIPS_MOUSTACHE_L,           ///< Lips / Moustache left.
-	WID_SCMF_LIPS_MOUSTACHE,             ///< Lips / Moustache.
-	WID_SCMF_LIPS_MOUSTACHE_R,           ///< Lips / Moustache right.
+	WID_SCMF_LIPS_FACIAL_HAIR_L,           ///< Lips / Facial hair left.
+	WID_SCMF_LIPS_FACIAL_HAIR,             ///< Lips / Facial hair.
+	WID_SCMF_LIPS_FACIAL_HAIR_R,           ///< Lips / Facial hair right.
 	WID_SCMF_NOSE_L,                     ///< Nose left.
 	WID_SCMF_NOSE,                       ///< Nose.
 	WID_SCMF_NOSE_R,                     ///< Nose right.

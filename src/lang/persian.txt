@@ -1750,7 +1750,7 @@ STR_FACE_AFRICAN                                                :{BLACK}آفری
 STR_FACE_SELECT_AFRICAN                                         :{BLACK}انتخاب صورت های آفریقایی
 STR_FACE_YES                                                    :بله
 STR_FACE_NO                                                     :خیر
-STR_FACE_MOUSTACHE_EARRING_TOOLTIP                              :{BLACK}فعال کردن سبیل و یا گوشواره
+STR_FACE_FACIAL_HAIR_EARRING_TOOLTIP                              :{BLACK}فعال کردن سبیل و یا گوشواره
 STR_FACE_HAIR                                                   :مو:
 STR_FACE_HAIR_TOOLTIP                                           :{BLACK}تغییر مو
 STR_FACE_EYEBROWS                                               :ابروها:
@@ -1763,8 +1763,8 @@ STR_FACE_GLASSES_TOOLTIP_2                                      :{BLACK}تغیی
 STR_FACE_NOSE                                                   :بینی:
 STR_FACE_NOSE_TOOLTIP                                           :{BLACK}تغییر بینی
 STR_FACE_LIPS                                                   :لب ها:
-STR_FACE_MOUSTACHE                                              :سبیل:
-STR_FACE_LIPS_MOUSTACHE_TOOLTIP                                 :{BLACK}تغییر لب ها و یا سبیل
+STR_FACE_FACIAL_HAIR                                              :سبیل:
+STR_FACE_LIPS_FACIAL_HAIR_TOOLTIP                                 :{BLACK}تغییر لب ها و یا سبیل
 STR_FACE_CHIN                                                   :چانه:
 STR_FACE_CHIN_TOOLTIP                                           :{BLACK}تغییر چانه
 STR_FACE_JACKET                                                 :کت:
